@@ -1,27 +1,50 @@
+/*
+RoomType.java
+RoomType domain class
+Author: Moegamat Zaihd Behardien (219233829)
+Date: 23 March 2024
+*/
+
 package za.ac.cput.domain;
 
 import java.util.Objects;
 
-public class base
+public class RoomType
 {
     private Long id;
+    private String name;
+    private double price;
 
-    public Long getId()
-    {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Long id)
-    {
+    public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public static class Builder
     {
-        private final base base;
+        private final RoomType base;
         public Builder()
         {
-            base = new base();
+            base = new RoomType();
         }
 
         public Builder id(Long id)
@@ -30,7 +53,7 @@ public class base
             return this;
         }
 
-        public base build()
+        public RoomType build()
         {
             return base;
         }
@@ -42,7 +65,7 @@ public class base
     {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        base that = (base) o;
+        RoomType that = (RoomType) o;
         return Objects.equals(id, that.id);
     }
 
