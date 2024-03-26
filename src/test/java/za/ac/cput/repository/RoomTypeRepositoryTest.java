@@ -77,7 +77,7 @@ public class RoomTypeRepositoryTest
         roomType.setPrice(200.0);
 
         RoomType savedRoomType = roomTypeRepository.create(roomType);
-        roomTypeRepository.delete(savedRoomType);
+        roomTypeRepository.delete(savedRoomType.getId());
         RoomType deletedRoomType = roomTypeRepository.findById(savedRoomType.getId());
 
         assertNull(deletedRoomType);

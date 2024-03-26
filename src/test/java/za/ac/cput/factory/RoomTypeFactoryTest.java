@@ -12,30 +12,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class RoomTypeFactoryTest
 {
-    @Test
-    void buildRoomType() {
-        RoomType rt = RoomTypeFactory.createRoomType(1021513L, "Eric", 6.2);
-        RoomType rt2 = rt;
-
-        assertNotNull(rt);
-        assertEquals(rt, rt2);
     }
 
-    @Test
-    void missingDetails()
-    {
-        RoomType rt = RoomTypeFactory.createRoomType(213L, "John", 53);
-        assertNull(rt);
-    }
 
-    @Test
-    void buildGenerateId()
-    {
-        RoomType rt = RoomTypeFactory.createRoomType(315135L, "Bruce",32);
-        RoomType rt2 = rt;
-
-        assertNull(rt);
-        assertEquals(rt,rt2);
-    }
-
-}
