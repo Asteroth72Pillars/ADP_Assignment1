@@ -2,7 +2,7 @@ package za.ac.cput.repository;
 
 import za.ac.cput.domain.Room;
 
-import java.util.List;
+import java.util.List; 
 /*IRoomRespository.java
 Room class
 Author:Mamicky Shiluva Mbiza_216157404_group 14
