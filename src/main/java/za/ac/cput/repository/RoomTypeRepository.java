@@ -10,4 +10,5 @@ import za.ac.cput.domain.RoomType;
 public interface RoomTypeRepository extends IRepository<RoomType, Long>
 {
 
+    void delete(RoomType roomType);
 }

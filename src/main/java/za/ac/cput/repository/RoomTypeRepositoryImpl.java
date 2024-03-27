@@ -6,9 +6,9 @@ Date: 23 March 2024
 */
 package za.ac.cput.repository;
 import za.ac.cput.domain.RoomType;
-import za.ac.cput.repository.RoomTypeRepository;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 public class RoomTypeRepositoryImpl implements RoomTypeRepository
 {
@@ -40,6 +40,16 @@ public class RoomTypeRepositoryImpl implements RoomTypeRepository
         } else {
             throw new RuntimeException("RoomType not found");
         }
+    }
+
+    @Override
+    public boolean delete(Long aLong) {
+        return false;
+    }
+
+    @Override
+    public List<RoomType> getAll() {
+        return null;
     }
 
     @Override
