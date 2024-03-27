@@ -2,7 +2,7 @@ package za.ac.cput.factory;
 import za.ac.cput.domain.Room;
 import za.ac.cput.util.RoomHelper;
 
-/*RoomFactory.java
+/*RoomFactory.java 
 Room class
 Author:Mamicky Shiluva Mbiza_216157404_group 14
 Date:23 March 2024

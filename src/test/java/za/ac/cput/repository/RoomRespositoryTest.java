@@ -3,7 +3,7 @@ package za.ac.cput.repository;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import za.ac.cput.factory.RoomFactory;
-import za.ac.cput.domain.Room;
+import za.ac.cput.domain.Room; 
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
