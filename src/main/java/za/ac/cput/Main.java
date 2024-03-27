@@ -1,6 +1,11 @@
 package za.ac.cput;
 
+import za.ac.cput.domain.Guest;
+import za.ac.cput.factory.GuestFactory;
+import za.ac.cput.domain.Booking;
+import za.ac.cput.util.Helper;
 //import za.ac.cput.util.DateHelper;
+import java.util.Date;
 
 import java.text.ParseException;
 
