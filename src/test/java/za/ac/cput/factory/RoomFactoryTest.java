@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import za.ac.cput.domain.Room;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+ 
 public class RoomFactoryTest {
  @Test
     void createRoom(){
